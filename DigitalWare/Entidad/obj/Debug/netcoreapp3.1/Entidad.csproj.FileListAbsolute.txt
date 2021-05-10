@@ -1,0 +1,12 @@
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\bin\Debug\netcoreapp3.1\Entidad.deps.json
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\bin\Debug\netcoreapp3.1\Entidad.runtimeconfig.json
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\bin\Debug\netcoreapp3.1\Entidad.runtimeconfig.dev.json
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\bin\Debug\netcoreapp3.1\Entidad.dll
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\bin\Debug\netcoreapp3.1\Entidad.pdb
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.csprojAssemblyReference.cache
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.AssemblyInfoInputs.cache
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.AssemblyInfo.cs
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.csproj.CoreCompileInputs.cache
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.dll
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.pdb
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Entidad\obj\Debug\netcoreapp3.1\Entidad.genruntimeconfig.cache

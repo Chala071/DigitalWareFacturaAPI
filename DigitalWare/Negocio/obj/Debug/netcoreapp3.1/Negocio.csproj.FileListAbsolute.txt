@@ -1,0 +1,12 @@
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\bin\Debug\netcoreapp3.1\Negocio.deps.json
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\bin\Debug\netcoreapp3.1\Negocio.dll
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\bin\Debug\netcoreapp3.1\Negocio.pdb
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\bin\Debug\netcoreapp3.1\Entidad.dll
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\bin\Debug\netcoreapp3.1\Entidad.pdb
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.csprojAssemblyReference.cache
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfoInputs.cache
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.AssemblyInfo.cs
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CoreCompileInputs.cache
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.csproj.CopyComplete
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.dll
+D:\01- Johan\04 - Carrera Platzi\02 -Pruebas de trabajo\06 - DigitalWare\DigitalWare\Negocio\obj\Debug\netcoreapp3.1\Negocio.pdb

@@ -1,0 +1,243 @@
+{
+	"info": {
+		"_postman_id": "b6b587eb-c03a-447e-b501-f03580c8baea",
+		"name": "DigitalWare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Registrar_Factura",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \r\n  \"facturaFecha\": \"2020-07-10T18:41:23.700Z\",\r\n  \"clienteId\": 103018745,\r\n  \"facturaIvaporcentaje\": 19.0,\r\n  \"productosFacturar\": [\r\n    {\r\n      \"productoId\": \"48D7B75F-6E40-4C5B-A817-3C0FD5930A0C\",\r\n      \"cantidadFacturar\": 1\r\n    },\r\n    {\r\n      \"productoId\": \"4AD0825B-9BE8-4836-9EBD-D125EE5B1B5C\",\r\n      \"cantidadFacturar\": 2\r\n    }\r\n   \r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Factura/Crear",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Factura",
+						"Crear"
+					]
+				},
+				"description": "Metodo que registra una determinada factura"
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar factura por ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"facturaId\": \"581F0418-1C8A-444A-3B64-08D912962351\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Factura/Consultar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Factura",
+						"Consultar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar Factura",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"facturaId\": \"92C1F669-A5BB-4595-C930-08D9129A1ABB\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Factura/Borrar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Factura",
+						"Borrar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Factura",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"facturaId\": \"1344217C-2310-4F26-F50F-08D91346FAE5\",\r\n  \"listaProductoFacturado\": [\r\n    {\r\n      \"productoId\": \"4AD0825B-9BE8-4836-9EBD-D125EE5B1B5C\",\r\n      \"cantidadFacturar\": 1\r\n    },\r\n    {\r\n      \"productoId\": \"48D7B75F-6E40-4C5B-A817-3C0FD5930A0C\",\r\n      \"cantidadFacturar\": 1\r\n    }\r\n\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Factura/Editar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Factura",
+						"Editar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear Producto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"productoNombre\": \"Conjunto de platos\",\r\n  \"productoDescripcion\": \"Platos pintorin\",\r\n  \"productoCantidad\": 35,\r\n  \"productoPrecioUnitario\": 90000,\r\n  \"categoriaId\": \"CE384BF0-A326-454F-B936-86FD94EF8CDE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Producto/Crear",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Producto",
+						"Crear"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editar Producto",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"productoId\":\"9560452C-AA96-42BD-9A4A-08D9134ADE2B\",\r\n  \"productoNombre\": \"Horno Microondas\",\r\n  \"productoDescripcion\": \"Horno Generico\",\r\n  \"productoCantidad\": 20,\r\n  \"productoPrecioUnitario\": 550000,\r\n  \"categoriaId\": \"CE384BF0-A326-454F-B936-86FD94EF8CDE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Producto/Editar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Producto",
+						"Editar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar Producto",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productoId\":\"A0CFC2C2-D3BA-4801-3D5E-08D9134B6198\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Producto/Eliminar",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Producto",
+						"Eliminar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lista de Productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44360/api/Producto",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Producto"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
