@@ -23,6 +23,7 @@ Prueba Técnica DigitalWare
         },
         
     * Respuesta al Cliente:
+     ```
       { 
           "facturaId": "83d2148c-1bfb-4f72-ed16-08d9135dbca8",
           "facturaFecha": "2022-05-09T18:41:23.7Z",
@@ -47,3 +48,4 @@ Prueba Técnica DigitalWare
           }
           ]
         }
+       
